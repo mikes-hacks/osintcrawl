@@ -23,7 +23,7 @@ chk=(
 )
 
 echo "<HTML><BODY><BR>" > $d.html
-echo "<h1>OSINT Basher</h1>" >> $d.html
+echo "<h1>OSINT crawl</h1>" >> $d.html
 
 for c in "${chk[@]}"; do
     #cutycapt --url=$c --out=$d_$c.png;
