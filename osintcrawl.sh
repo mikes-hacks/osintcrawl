@@ -2,14 +2,14 @@
 
 if [[ $# -eq 0 ]] ; then
     echo ''
-    echo 'Usage: osintcrawl.sh megacorpone.com'
+    echo 'Usage: osintcrawl.sh megacorpone'
     echo ''
     exit 1
 fi
 
 if [ "$1" == "-h" ]; then
     echo ''
-    echo 'Usage: osintcrawl.sh megacorpone.com'
+    echo 'Usage: osintcrawl.sh megacorpone'
     echo ''
     exit 1
 fi
